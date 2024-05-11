@@ -54,7 +54,7 @@ const Description = styled.span`
 function Contact() {
   const links = {
     mail: "mailto:kalaitzisa@gmail.com",
-    github: "https://github.com/Thanos-M11/Thanos-M11.github.io",
+    github: "https://github.com/Thanos-M11",
     linkedin: "https://www.linkedin.com/in/thanoskalaitzis",
   };
 
