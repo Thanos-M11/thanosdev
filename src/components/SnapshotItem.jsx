@@ -22,7 +22,7 @@ function SnapshotItem({ image }) {
     <StyledLi>
       <Image
         key={image.imgFile}
-        src={`../images/${image.imgFile}`}
+        src={`/images/${image.imgFile}`}
         alt={image.imgAlt}
       />
       {image?.imgComments && <ImageComment>{image.imgComments}</ImageComment>}
