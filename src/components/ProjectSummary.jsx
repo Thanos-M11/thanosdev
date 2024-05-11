@@ -41,26 +41,24 @@ function ProjectSummary({ title, description, github, url }) {
     <Project>
       <Title>{title}</Title>
       <Description>{description}</Description>
-      {github ||
-        (url && (
-          <SummaryFooter>
-            {github && (
-              <FooterLink>
-                <Link to={github} target="_blank">
-                  GitHub &rarr;{" "}
-                </Link>
-              </FooterLink>
-            )}
 
-            {url && (
-              <FooterLink>
-                <Link to={url} target="_blank">
-                  Website &rarr;{" "}
-                </Link>
-              </FooterLink>
-            )}
-          </SummaryFooter>
-        ))}
+      <SummaryFooter>
+        {github && (
+          <FooterLink>
+            <Link to={github} target="_blank">
+              GitHub &rarr;{" "}
+            </Link>
+          </FooterLink>
+        )}
+
+        {url && (
+          <FooterLink>
+            <Link to={url} target="_blank">
+              Website &rarr;{" "}
+            </Link>
+          </FooterLink>
+        )}
+      </SummaryFooter>
     </Project>
   );
 }

@@ -6,7 +6,7 @@ export const projects = [
     description:
       "An ordering pizza online application where the user selects from a menu items with the ability to add the items on a cart, change their quantity and place the order with or without priority",
     mainTechnology: "React",
-    github: "",
+    github: "https://github.com/Thanos-M11/react-pizza",
     url: "",
     features: [
       "simple application: users can order one or more pizas from a menu",
@@ -119,7 +119,7 @@ export const projects = [
     description:
       "A room booking application where users are hotel employees with the ability to check in and out guests through a dashboard with statistics and metrics.",
     mainTechnology: "React",
-    github: "",
+    github: "https://github.com/Thanos-M11/the-wild-oasis",
     url: "https://mountain-glamping.netlify.app/",
     features: [
       "authentication: the user needs to log in to perform tasks • the user can change its name and password and upload an avatar",
@@ -261,7 +261,7 @@ export const projects = [
     description:
       "A simple React quiz with 15 questions, a progress bar and a score.",
     mainTechnology: "React",
-    github: "",
+    github: "https://github.com/Thanos-M11/react-quiz",
     url: "https://react-quiz-20.netlify.app/",
     features: [
       "progress bar",
@@ -334,7 +334,7 @@ export const projects = [
     description:
       "An application where you can search for over 1.000.000 recipes and bookmark the ones that you like most.",
     mainTechnology: "Pure JavaScript",
-    github: "",
+    github: "https://github.com/Thanos-M11/forkify-thanosmk",
     url: "https://forkify-thanosmk.netlify.app/",
     features: [
       "search: the user enters an igredient or a recipe into a search input element.",
@@ -405,11 +405,11 @@ export const projects = [
   {
     id: "PJ004",
     show: true,
-    title: "Banking UI",
+    title: "Bankist UI",
     description:
       "A beautiful bankist UI designed as a single page application (SPA) with smooth transitions written in pure javascript.",
     mainTechnology: "Pure JavaScript",
-    github: "",
+    github: "https://github.com/Thanos-M11/bankist-ui",
     url: "https://banking-ui.netlify.app/",
 
     features: [
@@ -473,7 +473,7 @@ export const projects = [
     description:
       "A wiki encyclopedia where the user enters a page using markdown syntax and the markdown is converted to HTML.",
     mainTechnology: "Python",
-    github: "",
+    github: "https://github.com/Thanos-M11/time_series_to_pdf",
     url: "",
     features: [
       "Entry Page: renders a page that displays the contents of that entry.",
