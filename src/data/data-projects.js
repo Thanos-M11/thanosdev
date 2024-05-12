@@ -9,13 +9,13 @@ export const projects = [
     github: "https://github.com/Thanos-M11/react-pizza",
     url: "",
     features: [
-      "simple application: users can order one or more pizas from a menu",
+      "simple application: users can order one or more pizzas from a menu",
       "requires no user accounts: users just input their names",
       "pizza menu can change: it is loaded from an API",
-      "cart: users can multiple pizzas to a cart before ordering",
+      "cart: users can add multiple pizzas to a cart before ordering",
       "ordering: requires just the user's name, phone number and address",
       "location: if possible a GPS location should be provided to make delivery easier",
-      "order priority: users can gove their order 'priority' with an extra 20% charge",
+      "order priority: users can give their order 'priority' with an extra 20% charge",
       "orders: are made by sending a POST request with the order data to the API",
       "payments: made on delivery, no payment is necessary in the app",
     ],
@@ -127,7 +127,7 @@ export const projects = [
       "bookings: the app renders a table view with all bookings showing arrival / departures dates, status, and paid amount, as well as cabin and guest data • other booking data include number of guests, number of nights, guests observations.",
       "check in / out: users are able to delete, check in or check out a booking as the guest arrives • users need to accept payment on check in and then confirm that payment has been received • on check in the guest has the ability to add breakfast for the entire stay.",
       "guests: data contain full name, email, national ID, nationality and a country flag ",
-      "the app renders a dashboard with information for the last 7, 30 or 90 days about: the list of guests checking in and out on the current day • statistics on recent bookings, sales, check ins and occupancy rate • a chart with daily sales and a chart showing statistics on stay durations.",
+      "the app renders a dashboard with information for the last 7, 30 or 90 days about: the list of guests checking in and out on the current day • statistics on recent bookings, sales, check ins and occupancy rate • a chart with daily sales and a chart showing statistics on stay duration.",
     ],
     techStack: {
       language: ["Javascript", "HTML", "CSS"],
@@ -168,7 +168,7 @@ export const projects = [
       },
       {
         imgFile: "wild-oasis/wild-oasis-checkinDetails.png",
-        imgAlt: "wild oasis checkin details view",
+        imgAlt: "wild oasis check in details view",
         imgComments: "",
       },
       {
@@ -193,7 +193,7 @@ export const projects = [
       },
       {
         imgFile: "wild-oasis/wild-oasis-codeAPIsignup.png",
-        imgAlt: "wild oasis code singup API",
+        imgAlt: "wild oasis code sing up API",
         imgComments: "",
       },
       {
@@ -337,8 +337,8 @@ export const projects = [
     github: "https://github.com/Thanos-M11/forkify-thanosmk",
     url: "https://forkify-thanosmk.netlify.app/",
     features: [
-      "search: the user enters an igredient or a recipe into a search input element.",
-      "resipes list: the application renders a list f recipes according to the search criteria",
+      "search: the user enters an ingredient or a recipe into a search input element.",
+      "recipes list: the application renders a list f recipes according to the search criteria",
       "pagination: the recipes are listed in batches of 10 recipes per page, the user navigates through the pages with buttons below.",
       "recipe details: the application renders a section with the recipe picture and recipe ingredients as well as links on how to cook it.",
       "servings calculation: user can calculate the recipe ingredients by changing the number of servings",
@@ -361,7 +361,7 @@ export const projects = [
       },
       {
         imgFile: "forkify/forkify-recipies.png",
-        imgAlt: "forkify recipies",
+        imgAlt: "forkify recipes",
         imgComments: "",
       },
       {
@@ -386,7 +386,7 @@ export const projects = [
       },
       {
         imgFile: "forkify/forkify-code-controllerRecipies.png",
-        imgAlt: "forkify recipies controller",
+        imgAlt: "forkify recipes controller",
         imgComments: "",
       },
       {
@@ -396,7 +396,7 @@ export const projects = [
       },
       {
         imgFile: "forkify/forkify-code-modelCreateLoadRecipy.png",
-        imgAlt: "forkify code model create loader recipy",
+        imgAlt: "forkify code model create loader recipe",
         imgComments: "",
       },
     ],
@@ -407,7 +407,7 @@ export const projects = [
     show: true,
     title: "Bankist UI",
     description:
-      "A beautiful bankist UI designed as a single page application (SPA) with smooth transitions written in pure javascript.",
+      "A beautiful fictional online bank UI designed as a single page application (SPA) with smooth transitions written in pure javascript.",
     mainTechnology: "Pure JavaScript",
     github: "https://github.com/Thanos-M11/bankist-ui",
     url: "https://banking-ui.netlify.app/",

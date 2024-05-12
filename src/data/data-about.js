@@ -1,11 +1,12 @@
 export const about = {
-  intro:
-    "Ex-Business Development and Product manager transitioned into a Programmer/Software Developer role bridging business acumen with modern tech innovation to produce seamless solutions. Over 10 years of experience managing teams of 5 – 40 people plus working with C-Suite Executives. Eager to contribute his experience combined with his latest skills in React, JavaScript, HTML, CSS, Python, Django and Flask to a dynamic development team. His passion for coding and continuous commitment to knowledge absorption drives his pursuit of excellence in software development.",
+  intro: [
+    "Ex-Business Development and Product manager successfully transitioned into a Front-end Web Developer role bridging business acumen with modern tech innovation. This unique blend of extensive experience in team management and C-suite executives collaboration complements my technical skills in React, JavaScript, HTML, CSS, Python, Django, Flask and SQL and positions me as a valuable asset to any development team.",
+  ],
 
   education: [
     {
       id: "ED000",
-      title: "Postgraduate Degree in Fishing Gear Engneering",
+      title: "Postgraduate Degree in Fishing Gear Engineering",
       school: "Humberside of Lincoln, UK",
       date: "1991 - 1992",
       show: false,
@@ -188,7 +189,7 @@ export const about = {
       title: "Food Costing",
       industry: "Plant Based Restaurant",
       concept:
-        "Food Costing and ERP Emplementation of a Plant Based Restaurant",
+        "Food Costing and ERP Implementation of a Plant Based Restaurant",
       date: "02/ 2021 - 10/2021",
       area: "Santorini Island, Greece",
       customer: "Group of companies",
