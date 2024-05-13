@@ -1,6 +1,6 @@
 export const about = {
   intro: [
-    "Ex-Business Development and Product manager successfully transitioned into a Front-end Web Developer role bridging business acumen with modern tech innovation. This unique blend of extensive experience in team management and C-suite executives collaboration complements my technical skills in React, JavaScript, HTML, CSS, Python, Django, Flask and SQL and positions me as a valuable asset to any development team.",
+    "Ex-Business Development and Product manager successfully transitioned into a Front-end Web Developer role bridging business acumen with modern tech innovation. This unique blend of extensive experience in team management and C-suite executives collaboration complements my technical skills in React, JavaScript, HTML, CSS, Python, Django, Flask and SQL and positions me as a valuable asset to a forward-thinking development team.",
   ],
 
   education: [
