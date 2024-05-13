@@ -1,16 +1,25 @@
 import styled from "styled-components";
 
-const Subtitle = styled.p`
+const StyledDiv = styled.div`
+  margin: 3em auto;
+  border: 1px solid;
+`;
+
+const StyledP = styled.p`
   color: var(--color-base-250);
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   font-weight: 700;
-  margin: 2.5em auto;
-  overflow-wrap: break-word;
-  padding-bottom: 0.5em;
   border-bottom: 1px solid var(--color-base-750);
-  /* text-transform: uppercase; */
   letter-spacing: 2px;
   text-align: center;
 `;
+
+function Subtitle({ children }) {
+  return (
+    <StyledDiv>
+      <StyledP>{children}</StyledP>
+    </StyledDiv>
+  );
+}
 
 export default Subtitle;
