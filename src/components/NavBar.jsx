@@ -9,6 +9,7 @@ const StyledNav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1em;
 `;
 
 const StyledSpan = styled.span`
