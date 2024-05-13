@@ -9,6 +9,7 @@ import Work from "../components/Work";
 import BusinessDev from "../components/BusinessDev";
 
 import PageTitle from "../components/PageTitle";
+import Resume from "../components/Resume";
 
 const Intro = styled.p`
   font-size: 1.3rem;
@@ -36,6 +37,7 @@ function About() {
       <h1>Thanos Kalaitzis</h1>
       <Occupation>Web Application Developer</Occupation>
       <Intro>{intro}</Intro>
+      <Resume />
       <Subtitle>certificates</Subtitle>
       <Certificates certificates={certificates} />
       <Subtitle>work experience</Subtitle>

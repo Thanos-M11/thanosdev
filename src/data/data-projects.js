@@ -117,7 +117,7 @@ export const projects = [
     show: true,
     title: "Wild Oasis",
     description:
-      "A room booking application where users are hotel employees with the ability to check in and out guests through a dashboard with statistics and metrics.",
+      "A room booking application where users are hotel employees with the ability to check in and out guests through a dashboard with statistics and metrics. Login credentials: test@test.com, pass1234",
     mainTechnology: "React",
     github: "https://github.com/Thanos-M11/the-wild-oasis",
     url: "https://mountain-glamping.netlify.app/",
