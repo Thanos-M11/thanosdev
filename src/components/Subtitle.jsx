@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const StyledDiv = styled.div`
   margin: 3em auto;
-  border: 1px solid;
 `;
 
 const StyledP = styled.p`

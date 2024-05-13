@@ -10,7 +10,7 @@ const Button = styled.button`
   background-color: inherit;
   border: 1px solid var(--color-base-500);
   border-radius: 0.7em;
-  padding: 1em 1.5em;
+  padding: 0.5em 1.5em;
   color: var(--color-base-250);
   font-size: 1.2rem;
 
