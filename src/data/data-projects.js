@@ -7,6 +7,11 @@ export const projects = [
       "An ordering pizza online application where the user selects from a menu items with the ability to add the items on a cart, change their quantity and place the order with or without priority",
     mainTechnology: "React",
     github: "https://github.com/Thanos-M11/react-pizza",
+    attribute: {
+      link: "https://www.udemy.com/user/jonasschmedtmann/",
+      description:
+        "A project of Ultimate React Course 2024 instructed by Jonas Schmedtmann.",
+    },
     url: "",
     features: [
       "simple application: users can order one or more pizzas from a menu",
@@ -121,6 +126,11 @@ export const projects = [
     mainTechnology: "React",
     github: "https://github.com/Thanos-M11/the-wild-oasis",
     url: "https://the-wild-oasis-thanosmk.netlify.app/",
+    attribute: {
+      link: "https://www.udemy.com/user/jonasschmedtmann/",
+      description:
+        "A project of Ultimate React Course 2024 instructed by Jonas Schmedtmann.",
+    },
     features: [
       "authentication: the user needs to log in to perform tasks • the user can change its name and password and upload an avatar",
       "cabins: the app renders a table view with all cabins showing the cabin photo, name, capacity, price and current discount • users can update or delete a cabin and create new cabins",
@@ -263,6 +273,11 @@ export const projects = [
     mainTechnology: "React",
     github: "https://github.com/Thanos-M11/react-quiz",
     url: "https://react-quiz-20.netlify.app/",
+    attribute: {
+      link: "https://www.udemy.com/user/jonasschmedtmann/",
+      description:
+        "A project of Ultimate React Course 2024 instructed by Jonas Schmedtmann.",
+    },
     features: [
       "progress bar",
       "user's score is displayed on top according to the answer",
@@ -336,6 +351,11 @@ export const projects = [
     mainTechnology: "Pure JavaScript",
     github: "https://github.com/Thanos-M11/forkify-thanosmk",
     url: "https://forkify-thanosmk.netlify.app/",
+    attribute: {
+      link: "https://www.udemy.com/user/jonasschmedtmann/",
+      description:
+        "A project of The Complete Javascript Course instructed by Jonas Schmedtmann.",
+    },
     features: [
       "search: the user enters an ingredient or a recipe into a search input element.",
       "recipes list: the application renders a list f recipes according to the search criteria",
@@ -411,7 +431,11 @@ export const projects = [
     mainTechnology: "Pure JavaScript",
     github: "https://github.com/Thanos-M11/bankist-ui",
     url: "https://banking-ui.netlify.app/",
-
+    attribute: {
+      link: "https://www.udemy.com/user/jonasschmedtmann/",
+      description:
+        "A project of The Complete Javascript Course instructed by Jonas Schmedtmann.",
+    },
     features: [
       "smooth navigation transition",
       "tabs and tabbed components",
@@ -473,7 +497,12 @@ export const projects = [
     description:
       "A wiki encyclopedia where the user enters a page using markdown syntax and the markdown is converted to HTML.",
     mainTechnology: "Python",
-    github: "https://github.com/Thanos-M11/time_series_to_pdf",
+    github: "",
+    attribute: {
+      link: "https://cs50.harvard.edu/web/2020/projects/1/",
+      description:
+        "A project assignment under CS50w Web Programming with Python and JavaScript",
+    },
     url: "",
     features: [
       "Entry Page: renders a page that displays the contents of that entry.",

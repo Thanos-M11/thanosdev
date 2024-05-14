@@ -36,7 +36,17 @@ const FooterLink = styled.span`
   font-weight: 700;
 `;
 
-function ProjectSummary({ title, description, github, url }) {
+const StyledDiv = styled.div`
+  margin-top: 2em;
+`;
+
+const LicenseLink = styled.span`
+  color: var(--color-base-250);
+  font-size: 0.9rem;
+  font-weight: 300;
+`;
+
+function ProjectSummary({ title, description, github, url, attribute }) {
   return (
     <Project>
       <Title>{title}</Title>
@@ -59,6 +69,16 @@ function ProjectSummary({ title, description, github, url }) {
           </FooterLink>
         )}
       </SummaryFooter>
+
+      {attribute && (
+        <StyledDiv>
+          <LicenseLink>
+            <Link to={attribute.link} target="_blank">
+              {attribute.description} &rarr;{" "}
+            </Link>
+          </LicenseLink>
+        </StyledDiv>
+      )}
     </Project>
   );
 }

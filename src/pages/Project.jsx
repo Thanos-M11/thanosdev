@@ -18,8 +18,16 @@ function Project() {
 
   const currentProject = projects.find((project) => project.id === id);
 
-  const { title, description, github, url, features, techStack, images } =
-    currentProject;
+  const {
+    title,
+    description,
+    github,
+    url,
+    attribute,
+    features,
+    techStack,
+    images,
+  } = currentProject;
 
   return (
     <div>
@@ -28,6 +36,7 @@ function Project() {
         description={description}
         github={github}
         url={url}
+        attribute={attribute}
       />
       {features.length > 0 && <Features features={features} />}
       <TechStack techStack={techStack} />
