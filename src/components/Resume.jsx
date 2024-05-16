@@ -22,7 +22,7 @@ const Button = styled.button`
 
 function Resume() {
   const resumeLink =
-    "https://app.enhancv.com/share/12a69229/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic";
+    "https://drive.google.com/file/d/1ZC4TH_etCdxuc6gJpokKjSfySRXSNXnh/view?usp=sharing";
   return (
     <ResumeRow>
       <Button as={Link} to={resumeLink} target="_blank">
