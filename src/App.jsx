@@ -3,7 +3,6 @@ import Homepage from "./pages/Homepage";
 import Project from "./pages/Project";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Education from "./components/Education";
 import PageNotFound from "./pages/PageNotFound";
 import Projects from "./pages/Projects";
 import Resume from "./components/Resume";
@@ -16,13 +15,13 @@ export default function App() {
       <GlobalStyles />
       <BrowserRouter>
         <Routes>
-          <Route index element={<Navigate replace to="homepage" />} />
-          <Route path="homepage" element={<Homepage />} />
+          <Route index element={<Navigate replace to="/homepage" />} />
+          <Route path="/homepage" element={<Homepage />} />
           <Route element={<AppLayout />}>
-            <Route path="projects/:id" element={<Project />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="projects" element={<Projects />} />
+            <Route path="/projects/:id" element={<Project />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="*" element={<PageNotFound />} />
           </Route>
         </Routes>
