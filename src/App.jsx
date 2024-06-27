@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PageNotFound from "./pages/PageNotFound";
 import Projects from "./pages/Projects";
-import Resume from "./components/Resume";
 import GlobalStyles from "./styles/GlobalStyles";
 import AppLayout from "./components/AppLayout";
 

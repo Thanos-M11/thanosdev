@@ -1,5 +1,69 @@
 export const projects = [
   {
+    id: "PJ006",
+    show: true,
+    title: "Rest Countries API, React, Modular CSS, Responsive",
+    description:
+      "This is a solution to the REST Countries API with color theme switcher challenge on Frontend Mentor.",
+    mainTechnology: "React",
+    github: "https://github.com/Thanos-M11/rest-countries",
+    attribute: {
+      link: "https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca",
+      description:
+        "This is a solution to the REST Countries API with color theme switcher challenge on Frontend Mentor.",
+    },
+    url: "https://rest-countries-api-thanosdev.netlify.app",
+    features: [
+      "See all countries from the API on the homepage",
+      "Search for a country using an input field",
+      "Filter countries by region",
+      "Click on a country to see more detailed information on a separate page",
+      "Click through to the border countries on the detail page",
+      "Toggle the color scheme between light and dark mode (optional)",
+    ],
+    techStack: {
+      language: ["Javascript", "HTML", "CSS"],
+      libraries: "React",
+      externalApis: "https://restcountries.com/",
+      routing: "React Router",
+      styling: "Modular CSS, Flex, Grid",
+      uiStateManagement: "Context API, React-Router",
+    },
+    images: [
+      {
+        imgFile: "restCountries/desktopDetails.png",
+        imgAlt: "",
+        imgComments: "",
+      },
+      {
+        imgFile: "restCountries/desktopFull.png",
+        imgAlt: "",
+        imgComments: "",
+      },
+      {
+        imgFile: "restCountries/desktopSearch.png",
+        imgAlt: "",
+        imgComments: "",
+      },
+      {
+        imgFile: "restCountries/desktopSearchRegion.png",
+        imgAlt: "",
+        imgComments: "",
+      },
+      {
+        imgFile: "restCountries/mobileFull.png",
+        imgAlt: "",
+        imgComments: "",
+      },
+      {
+        imgFile: "restCountries/mobileDetails.png",
+        imgAlt: "",
+        imgComments: "",
+      },
+    ],
+  },
+
+  {
     id: "PJ000",
     show: true,
     title: "Fast React Pizza",
