@@ -1,5 +1,64 @@
 export const projects = [
   {
+    id: "PJ007",
+    show: true,
+    title: "Job Listing with Typescript OOP approach, Responsive",
+    description:
+      "This is a solution to the Job listing challenge on Frontend Mentor. It is presented in two versions: one in pure Typescript in OOP approach and one with Angular @18.",
+    mainTechnology: "Typescript",
+    github: "https://github.com/Thanos-M11/job-listing-typescript",
+    attribute: {
+      link: "https://www.frontendmentor.io/solutions/responsive-job-listing-in-typescript-oop-approach-TnlDT858ad",
+      description:
+        "This is a solution to the Job listing challenge on Frontend Mentor.",
+    },
+    url: "https://job-listing-angular.web.app/",
+    features: [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+      "Filter job listings based on the categories",
+    ],
+    techStack: {
+      language: ["Typescript", "HTML", "CSS"],
+      framework: "Angular",
+      styling: "Modular CSS, Flex, Grid",
+    },
+    images: [
+      {
+        imgFile: "job-listing/desktop-with-filter.png",
+        imgAlt: "job list with filters",
+        imgComments: "desktop view",
+      },
+      {
+        imgFile: "job-listing/mobile-with-filter.png",
+        imgAlt: "job list with filters",
+        imgComments: "responsive view",
+      },
+      {
+        imgFile: "job-listing/app_file.png",
+        imgAlt: "the main app file",
+        imgComments: "Creating new components from the app.ts",
+      },
+      {
+        imgFile: "job-listing/singleton_pattern01.png",
+        imgAlt: "typescript code of a singleton pattern",
+        imgComments:
+          "Singleton design pattern for filter state management, page1",
+      },
+      {
+        imgFile: "job-listing/singleton_pattern02.png",
+        imgAlt: "typescript code of a singleton pattern",
+        imgComments: "Singleton design pattern page2",
+      },
+      {
+        imgFile: "job-listing/abstract_class.png",
+        imgAlt: "typescript code of an abstract class",
+        imgComments: "A generic abstract class for Components",
+      },
+    ],
+  },
+
+  {
     id: "PJ006",
     show: true,
     title: "Rest Countries API, React, Modular CSS, Responsive",
