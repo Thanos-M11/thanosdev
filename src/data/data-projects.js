@@ -1,5 +1,119 @@
 export const projects = [
   {
+    id: "PJ008",
+    show: true,
+    title: "Invoice app, Mobile version, with Angular, NgRx Store and RxJS",
+    description:
+      "This is an IN-PROGRESS... project. A potential solution to the Invoice app premium challenge on Frontend Mentors.",
+    mainTechnology: "Typescript, Angular",
+    github: "https://github.com/Thanos-M11/invoice",
+    attribute: {
+      link: "https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl",
+      description:
+        "Part of the solution to the Invoice app premium challenge on Frontend Mentor.",
+    },
+    url: "https://invoice-angular-62193.web.app/",
+    features: [
+      "Read and delete invoices  --DONE",
+      "Filter invoices by status (draft/pending/paid) --DONE",
+      "View the mobile layout --DONE",
+      "View the optimal layout for the app depending on their device's screen size --IN-PROGRESS",
+      "Create and update invoices  --IN-PROGRESS",
+      "Receive form validations when trying to create/edit an invoice --IN-PROGRESS",
+      "Save draft invoices, and mark pending invoices as paid --IN-PROGRESS",
+      "Toggle light and dark mode --IN-PROGRESS",
+    ],
+    techStack: {
+      language: ["Typescript", "HTML", "CSS"],
+      framework: "Angular",
+      styling: "CSS, Flex, Grid",
+    },
+    images: [
+      {
+        imgFile: "invoice/mobile-invoice-list.png",
+        imgAlt: "invoice list",
+        imgComments: "",
+      },
+      {
+        imgFile: "invoice/mobile-invoice-paid-details.png",
+        imgAlt: "invoice details with status paid",
+        imgComments: "",
+      },
+      {
+        imgFile: "invoice/mobile-invoice-pending-details.png",
+        imgAlt: "invoice details with status pending",
+        imgComments: "",
+      },
+      {
+        imgFile: "invoice/mobile-invoice-list-filter-off.png",
+        imgAlt: "no invoices icon",
+        imgComments: "",
+      },
+      {
+        imgFile: "invoice/mobile-filter-pending-off.png",
+        imgAlt: "invoice list without status pending",
+        imgComments: "",
+      },
+      {
+        imgFile: "invoice/mobile-filter-pending-on.png",
+        imgAlt: "invoice list with status pending",
+        imgComments: "",
+      },
+
+      {
+        imgFile: "invoice/code-app-config.png",
+        imgAlt: "app configuration file",
+        imgComments: "app.config.ts",
+      },
+      {
+        imgFile: "invoice/code-filter-component.png",
+        imgAlt: "filter component",
+        imgComments:
+          "Filter component with two observables, and a reactive form approach.  A FormGroup with a FormArray 'filter' property of type FormControl boolean. ",
+      },
+      {
+        imgFile: "invoice/code-invoice-filter-html.png",
+        imgAlt: "filter html",
+        imgComments: "Filter html",
+      },
+      {
+        imgFile: "invoice/code-filter-styles.png",
+        imgAlt: "filter styles",
+        imgComments: "Filter styles",
+      },
+      {
+        imgFile: "invoice/code-invoice-item-html.png",
+        imgAlt: "invoice item html",
+        imgComments: "Invoice Item html",
+      },
+      {
+        imgFile: "invoice/code-pipes.png",
+        imgAlt: "pipes",
+        imgComments: "Invoice pipes, for transforming values",
+      },
+      {
+        imgFile: "invoice/code-store-actions.png",
+        imgAlt: "store actions",
+        imgComments: "Store Actions",
+      },
+      {
+        imgFile: "invoice/code-store-reducer.png",
+        imgAlt: "store reducer",
+        imgComments: "Store reducer",
+      },
+      {
+        imgFile: "invoice/code-store-selectors.png",
+        imgAlt: "store selectors",
+        imgComments: "Store Selectors",
+      },
+      {
+        imgFile: "invoice/code-services.png",
+        imgAlt: "invoice services",
+        imgComments: "Invoice Services",
+      },
+    ],
+  },
+  {
     id: "PJ007",
     show: true,
     title: "Job Listing with Typescript OOP approach, Responsive",
