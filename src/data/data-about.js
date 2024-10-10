@@ -1,6 +1,6 @@
 export const about = {
   intro: [
-    "Ex-Business Development and Product manager successfully transitioned into a Front-end Web Developer role bridging business acumen with modern tech innovation. This unique blend of extensive experience in team management and C-suite executives collaboration complements my technical skills in React, JavaScript, HTML, CSS, Python, Django, Flask and SQL and positions me as a valuable asset to a forward-thinking development team.",
+    "Ex-Business Development and Product manager successfully transitioned into a Front-end Web Developer role bridging business acumen with modern tech innovation. This unique blend of extensive experience in team management and C-suite executives collaboration complements my technical skills currently focused in Typescript and JavaScript technologies including Angular, React, HTML, CSS combined with a past experience in full stack web applications using SQLite and Python frameworks such as Django and Flask positions me as a valuable asset to a forward-thinking development team.",
   ],
 
   education: [
@@ -32,7 +32,26 @@ export const about = {
 
   certificates: [
     {
-      id: "CE000",
+      id: "CE012",
+      title: "Angular The Complete Guide (2024 edition)",
+      school: "Udemy - Maximillian Schwarzmuller",
+      date: "09/ 2024 - ",
+      status: "in-progress",
+      show: true,
+      certificatePath: "",
+    },
+
+    {
+      id: "CE011",
+      title: "Understanding Typescript",
+      school: "Udemy - Maximillian Schwarzmuller",
+      date: "08/ 2024 - 08/ 2024",
+      status: "completed",
+      show: true,
+      certificatePath: "certificates/typescript_certificate.png",
+    },
+    {
+      id: "CE010",
       title: "The Ultimate React Course 2024: React, Redux & More",
       school: "Udemy - Jonas Schmedtmann",
       date: "03/ 2024 - 05/ 2024",
@@ -41,7 +60,7 @@ export const about = {
       certificatePath: "certificates/Ultimate_React.jpg",
     },
     {
-      id: "CE001",
+      id: "CE009",
       title: "The Complete JavaScript Course 2024: From Zero to Expert",
       school: "Udemy - Jonas Schmedtmann",
       date: "01/ 2024 - 02/2024",
@@ -50,7 +69,7 @@ export const about = {
       certificatePath: "certificates/TheCompleteJavaScript.jpg",
     },
     {
-      id: "CE002",
+      id: "CE008",
       title: "Career Essentials in Generative AI",
       school: "Microsoft and LinkedIn",
       date: "01/ 2024",
@@ -61,7 +80,7 @@ export const about = {
     },
 
     {
-      id: "CE003",
+      id: "CE007",
       title: "Python Basic",
       school: "HackerRank",
       date: "12/ 2023",
@@ -71,7 +90,7 @@ export const about = {
     },
 
     {
-      id: "CE004",
+      id: "CE006",
       title:
         "Professional Certificate in Computer Science for Python Programming",
       school: "HarvardX",
@@ -92,7 +111,7 @@ export const about = {
     },
 
     {
-      id: "CE006",
+      id: "CE004",
       title: "CS50P Introduction to Programming with Python",
       school: "Cambridge, Massachusetts",
       date: "10/ 2023",
@@ -101,7 +120,7 @@ export const about = {
       certificatePath: "certificates/HarvardX_CS50P_Certificate_edX.jpg",
     },
     {
-      id: "CE007",
+      id: "CE003",
       title: "Python Essentials 2",
       school: "Cisco",
       date: "12/ 2022",
@@ -111,7 +130,7 @@ export const about = {
     },
 
     {
-      id: "CE008",
+      id: "CE002",
       title: "PCEP-Certified Entry-Level Python Programmer",
       school: "OPEN EDG Python Institute",
       date: "12/ 2022",
@@ -122,7 +141,7 @@ export const about = {
     },
 
     {
-      id: "CE009",
+      id: "CE001",
       title: "Python Essentials 1",
       school: "Cisco",
       date: "11/ 2022",

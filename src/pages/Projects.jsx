@@ -22,13 +22,15 @@ const StyledUl = styled.ul`
 `;
 
 const StyledLi = styled.li`
-  border: 1px solid var(--color-base-750);
+  border: 2px solid var(--color-base-750);
+  border-left: 5px solid var(--color-base-750);
   border-radius: 0.75em;
-  padding: 2.5em 3em;
+  padding: 3em;
   margin-bottom: 1em;
 
   &:hover {
-    border: 1px solid var(--color-base-250);
+    /* border: 1px solid var(--color-base-250); */
+    border-left: 5px solid green;
     cursor: pointer;
   }
 `;

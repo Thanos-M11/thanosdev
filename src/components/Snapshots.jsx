@@ -9,6 +9,9 @@ const SnapshotContainer = styled.ul`
   flex-direction: column;
   gap: 2em;
   align-items: center;
+  justify-content: center;
+  width: 390px;
+  margin: 0 auto;
 `;
 
 function Snapshots({ images }) {

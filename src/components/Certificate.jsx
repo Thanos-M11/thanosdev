@@ -44,12 +44,17 @@ const Date = styled.p`
 function Certificate({ certificate }) {
   const { id, title, school, date, status, show, certificatePath } =
     certificate;
-
+  const certificateExists = certificatePath.length > 0;
   if (!show) return;
 
   return (
     <FlexRow>
-      <StyledImg src={`../images/${certificatePath}`} />
+      {certificateExists ? (
+        <StyledImg src={`../images/${certificatePath}`} />
+      ) : (
+        <h2 style={{ color: "yellowgreen" }}>In-Progress...</h2>
+      )}
+
       <CertificateDetails>
         <Title>{title}</Title>
         <School>{school}</School>
