@@ -11,10 +11,11 @@ const ResumeRow = styled.section`
 // https://drive.google.com/file/d/1ZC4TH_etCdxuc6gJpokKjSfySRXSNXnh/view?usp=sharing
 // https://drive.google.com/file/d/1Mt9KEbDAHh-eKvZ8t08Ae9bBB1TfDPly/view?usp=sharing
 // "https://drive.google.com/file/d/1QVuobRc4RML9KnEI2l5hXCenn655m1gC/view?usp=sharing";
+// "https://drive.google.com/file/d/1Uoo9rL5rgnQAzveIUczIiPPGHS_nN1Ij/view?usp=sharing";
 
 function Resume() {
   const resumeLink =
-    "https://drive.google.com/file/d/1Uoo9rL5rgnQAzveIUczIiPPGHS_nN1Ij/view?usp=sharing";
+    "https://drive.google.com/file/d/1mOlcnWHDrXTrikSrWXRO8_KNsPMEjTY5/view?usp=sharing";
 
   return (
     <ResumeRow>
